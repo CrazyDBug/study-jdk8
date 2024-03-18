@@ -1,4 +1,4 @@
-package pattern.strategy.fly;
+package com.dragon.pattern.strategy.fly;
 
 /**
  * @date: 2024/3/18 20:57

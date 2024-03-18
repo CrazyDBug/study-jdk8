@@ -1,7 +1,8 @@
-package pattern.strategy;
+package com.dragon.pattern.strategy;
 
-import pattern.strategy.duck.Duck;
-import pattern.strategy.duck.MallardDuck;
+
+import com.dragon.pattern.strategy.duck.Duck;
+import com.dragon.pattern.strategy.duck.MallardDuck;
 
 /**
  * @date: 2024/3/18 21:00
@@ -13,21 +14,5 @@ public class MiniDuckSimulator {
         mallardDuck.display();
         mallardDuck.performQuack();
         mallardDuck.performFly();
-//        D mallardDuck = new MallardDuck();
-//        Duck duck = new ModelDuck();
-//        duck.display();
-//        duck.quack();
-//        duck.fly();
-//        System.out.println("-----------------");
-//        duck = new MallardDuck();
-//        duck.display();
-//        duck.quack();
-//        duck.fly();
-//        System.out.println("-----------------");
-//        duck = new RedHeadDuck();
-//        duck.display();
-//        duck.quack();
-//        duck.fly();
-
     }
 }

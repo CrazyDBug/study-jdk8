@@ -1,4 +1,4 @@
-package pattern.strategy.quack;
+package com.dragon.pattern.strategy.quack;
 
 /**
  * @date: 2024/3/18 20:53

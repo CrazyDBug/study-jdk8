@@ -1,7 +1,7 @@
-package pattern.strategy.duck;
+package com.dragon.pattern.strategy.duck;
 
-import pattern.strategy.fly.FlyNoWay;
-import pattern.strategy.quack.Quack;
+import com.dragon.pattern.strategy.fly.FlyNoWay;
+import com.dragon.pattern.strategy.quack.Quack;
 
 /**
  * @date: 2024/3/18 21:03

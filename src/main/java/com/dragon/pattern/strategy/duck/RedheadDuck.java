@@ -1,4 +1,4 @@
-package pattern.strategy.duck;
+package com.dragon.pattern.strategy.duck;
 
 /**
  * @date: 2024/3/18 20:44
