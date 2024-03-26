@@ -1,4 +1,4 @@
-package com.dragon.pattern.template;
+package com.dragon.pattern.template.first;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

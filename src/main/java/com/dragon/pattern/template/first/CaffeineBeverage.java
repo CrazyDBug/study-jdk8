@@ -1,18 +1,16 @@
-package com.dragon.pattern.template;
+package com.dragon.pattern.template.first;
 
 /**
  * @Description: 咖啡因饮料
  * @date: 2024/3/25 23:26
  * @author: ybl
  */
-public abstract class CaffeeBeverageWithHock {
+public abstract class CaffeineBeverage {
     final void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();
-        if (customerWantsCondiments()) {
-            addCondiments();
-        }
+        addCondiments();
     }
 
     abstract void brew();
@@ -27,7 +25,5 @@ public abstract class CaffeeBeverageWithHock {
         System.out.println("倒入杯中");
     }
 
-    boolean customerWantsCondiments() {
-        return true;
-    }
+
 }

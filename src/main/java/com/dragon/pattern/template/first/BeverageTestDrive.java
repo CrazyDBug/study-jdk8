@@ -1,6 +1,4 @@
-package com.dragon.pattern.template;
-
-import com.dragon.pattern.decorative.Beverage;
+package com.dragon.pattern.template.first;
 
 /**
  * @date: 2024/3/25 23:44
