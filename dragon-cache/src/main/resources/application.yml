@@ -1,0 +1,15 @@
+local:
+  cache:
+    enable: true
+distribute:
+  cache:
+    enable: true
+
+
+server:
+  port: 9999
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
