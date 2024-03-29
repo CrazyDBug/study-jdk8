@@ -36,10 +36,9 @@ public class TestServiceImpl implements TestService {
             if (value == null) {
                 // 数据库
                 value = testDataService.getValue(key);
-                if (value != null) {
-                    // 分布式缓存
-                    distributedCacheService.setValue(String.valueOf(key), value);
-                }
+                // 分布式缓存
+                // 修改 空值支持缓存,防止穿透
+                distributedCacheService.setValue(key, value);
             }
         }
         return value;

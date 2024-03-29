@@ -10,7 +10,7 @@
   <name>study-jdk8</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>dragon-cache</module>
+<!--    <module>dragon-cache</module>-->
   </modules>
   <packaging>pom</packaging>
 

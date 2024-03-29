@@ -8,5 +8,5 @@ public interface DistributedCacheService {
 
     String getValue(Integer key);
 
-    void setValue(String key, String value);
+    void setValue(Integer key, String value);
 }
